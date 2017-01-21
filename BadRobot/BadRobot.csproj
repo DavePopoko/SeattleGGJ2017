@@ -75,6 +75,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Enemy\AlertState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\ChaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\IEnemyState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\MeleeAttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\PatrolState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\RangeAttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\ScanState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\StatePatternEnemy.cs" />
     <Compile Include="Assets\Scripts\WaveLimb.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
