@@ -5,52 +5,54 @@ public class WaveLimb : MonoBehaviour
 {
 	public Transform mainBodyJoint;
 	public Transform handJoint;
-	public Transform[] internalJoints;
+	public Transform firstJoint;
+	public Transform lastJoint;
+
+	private int jointCount = 0;
 
 	void Awake()
 	{
-		
-	}
-
-	void Start()
-	{
-		
+		for (Transform joint = firstJoint; joint != lastJoint; joint = joint.GetChild(0))
+			jointCount++;
+		jointCount++;
 	}
 		
 	void FixedUpdate()
 	{
 		Vector3 firstPosition, lastPosition;
-		//first
+		
+		//apply first
 		transform.position = mainBodyJoint.position;
 		transform.up = mainBodyJoint.forward;
 		firstPosition = transform.position;
 
-		//last
-		Transform last = internalJoints[internalJoints.Length - 1];
-		last.right = handJoint.up;
-		last.up = -handJoint.forward;
-		Vector3 distance = last.position - last.GetChild(0).position;
+		//calculate last
+		lastJoint.right = handJoint.up;
+		lastJoint.up = -handJoint.forward;
+		Vector3 distance = lastJoint.position - lastJoint.GetChild(0).position;
 		lastPosition = handJoint.position + distance;
 
-		float countJointSteps = internalJoints.Length;
-		Vector3 distancePerStep = (last.position - transform.position) / countJointSteps;
-		float anglePerStep = Vector3.Angle(transform.up, last.up) / countJointSteps;
-		Vector3 axis = Vector3.Cross(transform.up, last.up);
-		for(int i = 0; i < internalJoints.Length - 1; i++)
+		//bezier method:
+		float cpDistance = Mathf.Abs((lastPosition - firstPosition).magnitude) / 2f;
+		Vector3 cp1 = firstPosition + transform.up * cpDistance;
+		Vector3 cp2 = lastPosition - lastJoint.up * cpDistance;
+		Transform prev = transform;
+		int i = 0;
+		for (Transform joint = firstJoint; joint != lastJoint; joint = joint.GetChild(0))
 		{
-			internalJoints[i].position = transform.position + distancePerStep * (i + 1);
-			internalJoints[i].localRotation = Quaternion.AngleAxis(anglePerStep * (i + 1), axis);
-			internalJoints[i].up = lastPosition - firstPosition;
+			i++;
+			float u = (float) i / (float) jointCount;
+			Vector3 currentPoint = Bezier.getBezierCurvePoint(firstPosition, cp1, cp2, lastPosition, u);
+			joint.position = currentPoint;
+			joint.forward = prev.forward;
+			joint.right = prev.right;
+			joint.up = currentPoint - prev.position;
+			prev = joint;
 		}
 
-		//apply last
-		last.right = handJoint.up;
-		last.up = -handJoint.forward;
-		last.position = lastPosition;
-	}
-		
-	void Update()
-	{
-		
+		//apply last (previous joints changed this)
+		lastJoint.right = handJoint.up;
+		lastJoint.up = -handJoint.forward;
+		lastJoint.position = lastPosition;
 	}
 }

@@ -75,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Bezier.cs" />
     <Compile Include="Assets\Scripts\Enemy\AlertState.cs" />
     <Compile Include="Assets\Scripts\Enemy\ChaseState.cs" />
     <Compile Include="Assets\Scripts\Enemy\IEnemyState.cs" />
