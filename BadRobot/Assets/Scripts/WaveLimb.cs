@@ -8,6 +8,8 @@ public class WaveLimb : MonoBehaviour
 	public Transform firstJoint;
 	public Transform lastJoint;
 
+	public float controlPointMultiplier = 0.5f;
+
 	private int jointCount = 0;
 
 	void Awake()
@@ -33,7 +35,7 @@ public class WaveLimb : MonoBehaviour
 		lastPosition = handJoint.position + distance;
 
 		//bezier method:
-		float cpDistance = Mathf.Abs((lastPosition - firstPosition).magnitude) / 2f;
+		float cpDistance = Mathf.Abs((lastPosition - firstPosition).magnitude) * controlPointMultiplier;
 		Vector3 cp1 = firstPosition + transform.up * cpDistance;
 		Vector3 cp2 = lastPosition - lastJoint.up * cpDistance;
 		Transform prev = transform;

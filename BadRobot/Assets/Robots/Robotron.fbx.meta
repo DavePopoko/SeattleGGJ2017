@@ -1,0 +1,1147 @@
+fileFormatVersion: 2
+guid: 6dd9aebc78897804c8690fbd06e86f79
+timeCreated: 1484706289
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: ArmPin.L.B
+    100004: ArmPin.L.T
+    100006: ArmPin.R.B
+    100008: ArmPin.R.T
+    100010: Base
+    100012: Body
+    100014: Collarbone.L
+    100016: Collarbone.R
+    100018: Head
+    100020: Head_end
+    100022: Hip
+    100024: Hip.L
+    100026: Hip.L_end
+    100028: Hip.R
+    100030: Hip.R_end
+    100032: Mid.L.L.B
+    100034: Mid.L.L.T
+    100036: Mid.L.R.B
+    100038: Mid.L.R.T
+    100040: MId.P.L.B
+    100042: MId.P.L.T
+    100044: MId.P.R.B
+    100046: MId.P.R.T
+    100048: Mid.R.L.B
+    100050: Mid.R.L.T
+    100052: Mid.R.R.B
+    100054: Mid.R.R.T
+    100056: Neck
+    100058: Ponce.L.L.B
+    100060: Ponce.L.L.B_end
+    100062: Ponce.L.L.T
+    100064: Ponce.L.L.T_end
+    100066: Ponce.L.R.B
+    100068: Ponce.L.R.B_end
+    100070: Ponce.L.R.T
+    100072: Ponce.L.R.T_end
+    100074: Ponce.P.L.B
+    100076: Ponce.P.L.B_end
+    100078: Ponce.P.L.T
+    100080: Ponce.P.L.T_end
+    100082: Ponce.P.R.B
+    100084: Ponce.P.R.B_end
+    100086: Ponce.P.R.T
+    100088: Ponce.P.R.T_end
+    100090: Ponce.R.L.B
+    100092: Ponce.R.L.B_end
+    100094: Ponce.R.L.T
+    100096: Ponce.R.L.T_end
+    100098: Ponce.R.R.B
+    100100: Ponce.R.R.B_end
+    100102: Ponce.R.R.T
+    100104: Ponce.R.R.T_end
+    100106: //RootNode
+    100108: RoboTron9000
+    100110: Shoulder.L
+    100112: Shoulder.R
+    100114: Torso
+    100116: Waist
+    100118: Wrist.L.B
+    100120: Wrist.L.T
+    100122: Wrist.R.B
+    100124: Wrist.R.T
+    400000: Armature
+    400002: ArmPin.L.B
+    400004: ArmPin.L.T
+    400006: ArmPin.R.B
+    400008: ArmPin.R.T
+    400010: Base
+    400012: Body
+    400014: Collarbone.L
+    400016: Collarbone.R
+    400018: Head
+    400020: Head_end
+    400022: Hip
+    400024: Hip.L
+    400026: Hip.L_end
+    400028: Hip.R
+    400030: Hip.R_end
+    400032: Mid.L.L.B
+    400034: Mid.L.L.T
+    400036: Mid.L.R.B
+    400038: Mid.L.R.T
+    400040: MId.P.L.B
+    400042: MId.P.L.T
+    400044: MId.P.R.B
+    400046: MId.P.R.T
+    400048: Mid.R.L.B
+    400050: Mid.R.L.T
+    400052: Mid.R.R.B
+    400054: Mid.R.R.T
+    400056: Neck
+    400058: Ponce.L.L.B
+    400060: Ponce.L.L.B_end
+    400062: Ponce.L.L.T
+    400064: Ponce.L.L.T_end
+    400066: Ponce.L.R.B
+    400068: Ponce.L.R.B_end
+    400070: Ponce.L.R.T
+    400072: Ponce.L.R.T_end
+    400074: Ponce.P.L.B
+    400076: Ponce.P.L.B_end
+    400078: Ponce.P.L.T
+    400080: Ponce.P.L.T_end
+    400082: Ponce.P.R.B
+    400084: Ponce.P.R.B_end
+    400086: Ponce.P.R.T
+    400088: Ponce.P.R.T_end
+    400090: Ponce.R.L.B
+    400092: Ponce.R.L.B_end
+    400094: Ponce.R.L.T
+    400096: Ponce.R.L.T_end
+    400098: Ponce.R.R.B
+    400100: Ponce.R.R.B_end
+    400102: Ponce.R.R.T
+    400104: Ponce.R.R.T_end
+    400106: //RootNode
+    400108: RoboTron9000
+    400110: Shoulder.L
+    400112: Shoulder.R
+    400114: Torso
+    400116: Waist
+    400118: Wrist.L.B
+    400120: Wrist.L.T
+    400122: Wrist.R.B
+    400124: Wrist.R.T
+    4300000: RoboTron9000
+    7400000: TriClaw_Close
+    7400002: TriClaw_Open
+    7400004: TriClaw_Spin
+    7400006: RoboTron_Idle
+    7400008: RoboTron_Run
+    7400010: RoboTron_Chris
+    7400012: RoboTron_Cross
+    7400014: RoboTron_Stag
+    7400016: Armature|Action
+    7400018: Armature|Chris
+    7400020: Armature|Cross
+    7400022: Armature|RoboTron_Idle
+    7400024: Armature|RoboTron_Run
+    7400026: Armature|RoboTron_Stag
+    7400028: RoboTron_TriClawSpin
+    7400030: Armature|TriClaw_Spin.002
+    7400032: Armature|TriClaw_Spin.003
+    7400034: RoboTron9000|Action
+    7400036: RoboTron9000|RoboTron_Stag
+    9500000: //RootNode
+    13700000: RoboTron9000
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RoboTron_Idle
+      takeName: RoboTron_Idle
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ArmPin.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B/Ponce.L.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B/Ponce.P.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B/Ponce.R.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B/Ponce.L.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B/Ponce.P.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B/Ponce.R.R.B_end
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Body
+        weight: 1
+      - path: Armature/Base/Body/Hip
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L/Hip.L_end
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R/Hip.R_end
+        weight: 1
+      - path: Armature/Base/Body/Waist
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T/Ponce.L.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T/Ponce.P.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T/Ponce.R.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T/Ponce.L.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T/Ponce.P.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T/Ponce.R.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: RoboTron9000
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RoboTron_Run
+      takeName: RoboTron_Run
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ArmPin.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B/Ponce.L.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B/Ponce.P.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B/Ponce.R.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B/Ponce.L.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B/Ponce.P.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B/Ponce.R.R.B_end
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Body
+        weight: 1
+      - path: Armature/Base/Body/Hip
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L/Hip.L_end
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R/Hip.R_end
+        weight: 1
+      - path: Armature/Base/Body/Waist
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T/Ponce.L.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T/Ponce.P.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T/Ponce.R.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T/Ponce.L.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T/Ponce.P.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T/Ponce.R.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: RoboTron9000
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RoboTron_Chris
+      takeName: Chris
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ArmPin.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B/Ponce.L.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B/Ponce.P.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B/Ponce.R.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B/Ponce.L.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B/Ponce.P.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B/Ponce.R.R.B_end
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Body
+        weight: 1
+      - path: Armature/Base/Body/Hip
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L/Hip.L_end
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R/Hip.R_end
+        weight: 1
+      - path: Armature/Base/Body/Waist
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T/Ponce.L.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T/Ponce.P.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T/Ponce.R.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T/Ponce.L.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T/Ponce.P.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T/Ponce.R.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: RoboTron9000
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RoboTron_Cross
+      takeName: Cross
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ArmPin.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B/Ponce.L.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B/Ponce.P.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B/Ponce.R.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B/Ponce.L.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B/Ponce.P.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B/Ponce.R.R.B_end
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Body
+        weight: 1
+      - path: Armature/Base/Body/Hip
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L/Hip.L_end
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R/Hip.R_end
+        weight: 1
+      - path: Armature/Base/Body/Waist
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T/Ponce.L.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T/Ponce.P.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T/Ponce.R.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T/Ponce.L.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T/Ponce.P.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T/Ponce.R.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: RoboTron9000
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RoboTron_Stag
+      takeName: RoboTron_Stag
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ArmPin.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B/Ponce.L.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B/Ponce.P.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B/Ponce.R.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B/Ponce.L.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B/Ponce.P.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B/Ponce.R.R.B_end
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Body
+        weight: 1
+      - path: Armature/Base/Body/Hip
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L/Hip.L_end
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R/Hip.R_end
+        weight: 1
+      - path: Armature/Base/Body/Waist
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T/Ponce.L.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T/Ponce.P.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T/Ponce.R.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T/Ponce.L.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T/Ponce.P.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T/Ponce.R.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: RoboTron9000
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RoboTron_TriClawSpin
+      takeName: Armature|TriClaw_Spin
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ArmPin.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B/Ponce.L.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B/Ponce.P.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B
+        weight: 1
+      - path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B/Ponce.R.L.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B/Ponce.L.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B/Ponce.P.R.B_end
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B
+        weight: 1
+      - path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B/Ponce.R.R.B_end
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Body
+        weight: 1
+      - path: Armature/Base/Body/Hip
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.L/Hip.L_end
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R
+        weight: 1
+      - path: Armature/Base/Body/Hip/Hip.R/Hip.R_end
+        weight: 1
+      - path: Armature/Base/Body/Waist
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T/Ponce.L.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T/Ponce.P.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T/Ponce.R.L.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T/Ponce.L.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T/Ponce.P.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T/Ponce.R.R.T_end
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Base/Body/Waist/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: RoboTron9000
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

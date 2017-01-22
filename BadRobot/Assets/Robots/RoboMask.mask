@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1011 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RoboMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 1
+  - m_Path: Armature/ArmPin.L.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.L.B/Wrist.L.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.L.B/Wrist.L.B/Mid.L.L.B/Ponce.L.L.B/Ponce.L.L.B_end
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.L.B/Wrist.L.B/MId.P.L.B/Ponce.P.L.B/Ponce.P.L.B_end
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.L.B/Wrist.L.B/Mid.R.L.B/Ponce.R.L.B/Ponce.R.L.B_end
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.R.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.R.B/Wrist.R.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.R.B/Wrist.R.B/Mid.L.R.B/Ponce.L.R.B/Ponce.L.R.B_end
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.R.B/Wrist.R.B/MId.P.R.B/Ponce.P.R.B/Ponce.P.R.B_end
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B
+    m_Weight: 0
+  - m_Path: Armature/ArmPin.R.B/Wrist.R.B/Mid.R.R.B/Ponce.R.R.B/Ponce.R.R.B_end
+    m_Weight: 0
+  - m_Path: Armature/Base
+    m_Weight: 1
+  - m_Path: Armature/Base/Body
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Hip
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Hip/Hip.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Hip/Hip.L/Hip.L_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Hip/Hip.R
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Hip/Hip.R/Hip.R_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.L.L.T/Ponce.L.L.T/Ponce.L.L.T_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/MId.P.L.T/Ponce.P.L.T/Ponce.P.L.T_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.L/Shoulder.L/ArmPin.L.T/Wrist.L.T/Mid.R.L.T/Ponce.R.L.T/Ponce.R.L.T_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.L.R.T/Ponce.L.R.T/Ponce.L.R.T_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/MId.P.R.T/Ponce.P.R.T/Ponce.P.R.T_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Collarbone.R/Shoulder.R/ArmPin.R.T/Wrist.R.T/Mid.R.R.T/Ponce.R.R.T/Ponce.R.R.T_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Neck
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Neck/Head
+    m_Weight: 1
+  - m_Path: Armature/Base/Body/Waist/Torso/Neck/Head/Head_end
+    m_Weight: 1
+  - m_Path: RoboTron9000
+    m_Weight: 1
