@@ -22,7 +22,7 @@ public class ClawHand : MonoBehaviour
 	{
 		SteamVR_Controller.Device device = SteamVR_Controller.Input((int)steamvr.index);
 
-		myClaw.SetBool(clawParameterName, device.GetTouch(SteamVR_Controller.ButtonMask.Trigger));
+		myClaw.SetBool(clawParameterName, !device.GetTouch(SteamVR_Controller.ButtonMask.Trigger));
 	}
 		
 	void Update()

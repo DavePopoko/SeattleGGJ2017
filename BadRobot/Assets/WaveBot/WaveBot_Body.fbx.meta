@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 1b6d499cb6ab32d4094c43cec60a620d
+timeCreated: 1484984591
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_left_locator
+    100002: arm_right_locator
+    100004: head_locator
+    100006: leg_left_locator
+    100008: leg_right_locator
+    100010: Middle
+    100012: Torso
+    100014: Waist
+    100016: //RootNode
+    100018: panel
+    100020: Belly
+    100022: BOLTS
+    100024: Dome
+    100026: Eye_Left
+    100028: Eye_Right
+    100030: HEAD
+    100032: Jaw
+    100034: LIGHTS
+    100036: Neck
+    100038: Neck_Connection
+    100040: Panel
+    100042: Panel1
+    100044: Panel10
+    100046: Panel11
+    100048: Panel2
+    100050: Panel3
+    100052: Panel4
+    100054: Panel5
+    100056: Panel6
+    100058: Panel7
+    100060: Panel8
+    100062: Panel9
+    100064: PANELS
+    100066: pCube1
+    100068: pCube1 1
+    100070: pCube2
+    100072: pCube2 1
+    100074: pCube3
+    100076: pCube3 1
+    100078: pCube4
+    100080: pCube4 1
+    100082: pCube5
+    100084: pCube5 1
+    100086: pCube5 10
+    100088: pCube5 11
+    100090: pCube5 2
+    100092: pCube5 3
+    100094: pCube5 4
+    100096: pCube5 5
+    100098: pCube5 6
+    100100: pCube5 7
+    100102: pCube5 8
+    100104: pCube5 9
+    100106: pCylinder2
+    100108: pCylinder2 1
+    100110: pCylinder31
+    100112: pCylinder32
+    100114: pCylinder33
+    100116: pCylinder34
+    100118: pCylinder35
+    100120: pCylinder36
+    100122: pCylinder37
+    100124: pCylinder38
+    100126: pCylinder39
+    100128: pCylinder4
+    100130: pCylinder4 1
+    100132: pCylinder40
+    100134: polySurface10
+    100136: polySurface11
+    100138: polySurface12
+    100140: polySurface13
+    100142: polySurface14
+    100144: polySurface16
+    100146: polySurface17
+    100148: polySurface18
+    100150: polySurface19
+    100152: polySurface21
+    100154: polySurface22
+    100156: polySurface24
+    100158: polySurface25
+    100160: polySurface26
+    100162: polySurface27
+    100164: polySurface7
+    100166: polySurface9
+    100168: pPlane10
+    100170: pPlane11
+    100172: pPlane12
+    100174: pPlane13
+    100176: pPlane14
+    100178: pPlane15
+    100180: pPlane4
+    100182: pPlane5
+    100184: pPlane6
+    100186: pPlane7
+    100188: pPlane8
+    100190: pPlane9
+    100192: pSphere13
+    100194: pSphere14
+    100196: pSphere15
+    100198: pSphere16
+    100200: pSphere24
+    100202: pSphere25
+    100204: pSphere26
+    100206: pSphere27
+    100208: Shell
+    100210: Shoulder_Pad
+    100212: Shoulder_Pad_Right
+    100214: TORSO
+    100216: VENTS
+    100218: WAIST
+    100220: Circuits_Left_Center
+    100222: Circuits_Left_Far
+    100224: Circuits_Right_Center
+    100226: Circuits_Right_Far
+    100228: Panel_Left_Center
+    100230: Panel_Left_Far
+    100232: Panel_Right_Center
+    100234: Panel_Right_Far
+    100236: PANELS_BREAKABLE
+    100238: Torso_Main
+    100240: Torso_Main1
+    100242: Torso_Main3
+    400000: arm_left_locator
+    400002: arm_right_locator
+    400004: head_locator
+    400006: leg_left_locator
+    400008: leg_right_locator
+    400010: Middle
+    400012: Torso
+    400014: Waist
+    400016: //RootNode
+    400018: panel
+    400020: Belly
+    400022: BOLTS
+    400024: Dome
+    400026: Eye_Left
+    400028: Eye_Right
+    400030: HEAD
+    400032: Jaw
+    400034: LIGHTS
+    400036: Neck
+    400038: Neck_Connection
+    400040: Panel
+    400042: Panel1
+    400044: Panel10
+    400046: Panel11
+    400048: Panel2
+    400050: Panel3
+    400052: Panel4
+    400054: Panel5
+    400056: Panel6
+    400058: Panel7
+    400060: Panel8
+    400062: Panel9
+    400064: PANELS
+    400066: pCube1
+    400068: pCube1 1
+    400070: pCube2
+    400072: pCube2 1
+    400074: pCube3
+    400076: pCube3 1
+    400078: pCube4
+    400080: pCube4 1
+    400082: pCube5
+    400084: pCube5 1
+    400086: pCube5 10
+    400088: pCube5 11
+    400090: pCube5 2
+    400092: pCube5 3
+    400094: pCube5 4
+    400096: pCube5 5
+    400098: pCube5 6
+    400100: pCube5 7
+    400102: pCube5 8
+    400104: pCube5 9
+    400106: pCylinder2
+    400108: pCylinder2 1
+    400110: pCylinder31
+    400112: pCylinder32
+    400114: pCylinder33
+    400116: pCylinder34
+    400118: pCylinder35
+    400120: pCylinder36
+    400122: pCylinder37
+    400124: pCylinder38
+    400126: pCylinder39
+    400128: pCylinder4
+    400130: pCylinder4 1
+    400132: pCylinder40
+    400134: polySurface10
+    400136: polySurface11
+    400138: polySurface12
+    400140: polySurface13
+    400142: polySurface14
+    400144: polySurface16
+    400146: polySurface17
+    400148: polySurface18
+    400150: polySurface19
+    400152: polySurface21
+    400154: polySurface22
+    400156: polySurface24
+    400158: polySurface25
+    400160: polySurface26
+    400162: polySurface27
+    400164: polySurface7
+    400166: polySurface9
+    400168: pPlane10
+    400170: pPlane11
+    400172: pPlane12
+    400174: pPlane13
+    400176: pPlane14
+    400178: pPlane15
+    400180: pPlane4
+    400182: pPlane5
+    400184: pPlane6
+    400186: pPlane7
+    400188: pPlane8
+    400190: pPlane9
+    400192: pSphere13
+    400194: pSphere14
+    400196: pSphere15
+    400198: pSphere16
+    400200: pSphere24
+    400202: pSphere25
+    400204: pSphere26
+    400206: pSphere27
+    400208: Shell
+    400210: Shoulder_Pad
+    400212: Shoulder_Pad_Right
+    400214: TORSO
+    400216: VENTS
+    400218: WAIST
+    400220: Circuits_Left_Center
+    400222: Circuits_Left_Far
+    400224: Circuits_Right_Center
+    400226: Circuits_Right_Far
+    400228: Panel_Left_Center
+    400230: Panel_Left_Far
+    400232: Panel_Right_Center
+    400234: Panel_Right_Far
+    400236: PANELS_BREAKABLE
+    400238: Torso_Main
+    400240: Torso_Main1
+    400242: Torso_Main3
+    2300000: Middle
+    2300002: Torso
+    2300004: Waist
+    2300006: panel
+    2300008: Belly
+    2300010: Dome
+    2300012: Jaw
+    2300014: Neck
+    2300016: Neck_Connection
+    2300018: pCube1
+    2300020: pCube1 1
+    2300022: pCube2
+    2300024: pCube2 1
+    2300026: pCube3
+    2300028: pCube3 1
+    2300030: pCube4
+    2300032: pCube4 1
+    2300034: pCube5
+    2300036: pCube5 1
+    2300038: pCube5 10
+    2300040: pCube5 11
+    2300042: pCube5 2
+    2300044: pCube5 3
+    2300046: pCube5 4
+    2300048: pCube5 5
+    2300050: pCube5 6
+    2300052: pCube5 7
+    2300054: pCube5 8
+    2300056: pCube5 9
+    2300058: pCylinder2
+    2300060: pCylinder2 1
+    2300062: pCylinder31
+    2300064: pCylinder32
+    2300066: pCylinder33
+    2300068: pCylinder34
+    2300070: pCylinder35
+    2300072: pCylinder36
+    2300074: pCylinder37
+    2300076: pCylinder38
+    2300078: pCylinder39
+    2300080: pCylinder4
+    2300082: pCylinder4 1
+    2300084: pCylinder40
+    2300086: polySurface10
+    2300088: polySurface11
+    2300090: polySurface12
+    2300092: polySurface13
+    2300094: polySurface14
+    2300096: polySurface16
+    2300098: polySurface17
+    2300100: polySurface18
+    2300102: polySurface19
+    2300104: polySurface21
+    2300106: polySurface22
+    2300108: polySurface24
+    2300110: polySurface25
+    2300112: polySurface26
+    2300114: polySurface27
+    2300116: polySurface7
+    2300118: polySurface9
+    2300120: pPlane10
+    2300122: pPlane11
+    2300124: pPlane12
+    2300126: pPlane13
+    2300128: pPlane14
+    2300130: pPlane15
+    2300132: pPlane4
+    2300134: pPlane5
+    2300136: pPlane6
+    2300138: pPlane7
+    2300140: pPlane8
+    2300142: pPlane9
+    2300144: pSphere13
+    2300146: pSphere14
+    2300148: pSphere15
+    2300150: pSphere16
+    2300152: pSphere24
+    2300154: pSphere25
+    2300156: pSphere26
+    2300158: pSphere27
+    2300160: Shell
+    2300162: Shoulder_Pad
+    2300164: Shoulder_Pad_Right
+    2300166: Circuits_Left_Center
+    2300168: Circuits_Left_Far
+    2300170: Circuits_Right_Center
+    2300172: Circuits_Right_Far
+    2300174: Panel_Left_Center
+    2300176: Panel_Left_Far
+    2300178: Panel_Right_Center
+    2300180: Panel_Right_Far
+    3300000: Middle
+    3300002: Torso
+    3300004: Waist
+    3300006: panel
+    3300008: Belly
+    3300010: Dome
+    3300012: Jaw
+    3300014: Neck
+    3300016: Neck_Connection
+    3300018: pCube1
+    3300020: pCube1 1
+    3300022: pCube2
+    3300024: pCube2 1
+    3300026: pCube3
+    3300028: pCube3 1
+    3300030: pCube4
+    3300032: pCube4 1
+    3300034: pCube5
+    3300036: pCube5 1
+    3300038: pCube5 10
+    3300040: pCube5 11
+    3300042: pCube5 2
+    3300044: pCube5 3
+    3300046: pCube5 4
+    3300048: pCube5 5
+    3300050: pCube5 6
+    3300052: pCube5 7
+    3300054: pCube5 8
+    3300056: pCube5 9
+    3300058: pCylinder2
+    3300060: pCylinder2 1
+    3300062: pCylinder31
+    3300064: pCylinder32
+    3300066: pCylinder33
+    3300068: pCylinder34
+    3300070: pCylinder35
+    3300072: pCylinder36
+    3300074: pCylinder37
+    3300076: pCylinder38
+    3300078: pCylinder39
+    3300080: pCylinder4
+    3300082: pCylinder4 1
+    3300084: pCylinder40
+    3300086: polySurface10
+    3300088: polySurface11
+    3300090: polySurface12
+    3300092: polySurface13
+    3300094: polySurface14
+    3300096: polySurface16
+    3300098: polySurface17
+    3300100: polySurface18
+    3300102: polySurface19
+    3300104: polySurface21
+    3300106: polySurface22
+    3300108: polySurface24
+    3300110: polySurface25
+    3300112: polySurface26
+    3300114: polySurface27
+    3300116: polySurface7
+    3300118: polySurface9
+    3300120: pPlane10
+    3300122: pPlane11
+    3300124: pPlane12
+    3300126: pPlane13
+    3300128: pPlane14
+    3300130: pPlane15
+    3300132: pPlane4
+    3300134: pPlane5
+    3300136: pPlane6
+    3300138: pPlane7
+    3300140: pPlane8
+    3300142: pPlane9
+    3300144: pSphere13
+    3300146: pSphere14
+    3300148: pSphere15
+    3300150: pSphere16
+    3300152: pSphere24
+    3300154: pSphere25
+    3300156: pSphere26
+    3300158: pSphere27
+    3300160: Shell
+    3300162: Shoulder_Pad
+    3300164: Shoulder_Pad_Right
+    3300166: Circuits_Left_Center
+    3300168: Circuits_Left_Far
+    3300170: Circuits_Right_Center
+    3300172: Circuits_Right_Far
+    3300174: Panel_Left_Center
+    3300176: Panel_Left_Far
+    3300178: Panel_Right_Center
+    3300180: Panel_Right_Far
+    4300000: Middle
+    4300002: Torso
+    4300004: Waist
+    4300006: panel
+    4300008: Dome
+    4300010: Jaw
+    4300012: Neck
+    4300014: pCylinder2
+    4300016: pCylinder4
+    4300018: pCube1
+    4300020: pCube2
+    4300022: pCube3
+    4300024: pCube4
+    4300026: pCylinder2
+    4300028: pCylinder4
+    4300030: pCube1
+    4300032: pCube2
+    4300034: pCube3
+    4300036: pCube4
+    4300038: Shell
+    4300040: Neck_Connection
+    4300042: Shoulder_Pad
+    4300044: polySurface19
+    4300046: polySurface7
+    4300048: Shoulder_Pad_Right
+    4300050: pSphere16
+    4300052: pSphere15
+    4300054: pSphere14
+    4300056: pSphere13
+    4300058: pSphere24
+    4300060: pSphere25
+    4300062: pSphere26
+    4300064: pSphere27
+    4300066: pCylinder40
+    4300068: pCylinder39
+    4300070: pCylinder38
+    4300072: pCylinder37
+    4300074: pCylinder36
+    4300076: pCylinder31
+    4300078: pCylinder32
+    4300080: pCylinder33
+    4300082: pCylinder34
+    4300084: pCylinder35
+    4300086: pPlane11
+    4300088: pPlane12
+    4300090: pPlane13
+    4300092: pPlane14
+    4300094: pPlane15
+    4300096: pPlane10
+    4300098: pPlane4
+    4300100: pPlane5
+    4300102: pPlane6
+    4300104: pPlane7
+    4300106: pPlane9
+    4300108: pPlane8
+    4300110: polySurface27
+    4300112: polySurface26
+    4300114: polySurface25
+    4300116: polySurface10
+    4300118: polySurface11
+    4300120: polySurface12
+    4300122: polySurface24
+    4300124: polySurface13
+    4300126: polySurface14
+    4300128: polySurface9
+    4300130: Belly
+    4300132: pCube5
+    4300134: polySurface18
+    4300136: polySurface16
+    4300138: polySurface21
+    4300140: polySurface22
+    4300142: pCube5
+    4300144: pCube5
+    4300146: pCube5
+    4300148: pCube5
+    4300150: pCube5
+    4300152: pCube5
+    4300154: pCube5
+    4300156: pCube5
+    4300158: pCube5
+    4300160: pCube5
+    4300162: pCube5
+    4300164: polySurface17
+    4300166: Torso_Main
+    4300168: Circuits_Left_Far
+    4300170: Circuits_Left_Center
+    4300172: Circuits_Right_Center
+    4300174: Circuits_Right_Far
+    4300176: Panel_Left_Far
+    4300178: Panel_Left_Center
+    4300180: Panel_Right_Center
+    4300182: Panel_Right_Far
+    4300184: Torso_Main3
+    9500000: //RootNode
+    13700000: Torso
+    13700002: Torso_Main
+    13700004: Torso_Main3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

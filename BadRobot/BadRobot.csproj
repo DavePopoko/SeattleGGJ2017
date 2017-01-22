@@ -75,17 +75,55 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Examples\3. PortalDoor\Scripts\PortalEntry.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Examples\4. Callbacks\Scripts\IlluminationController.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Examples\6. RuntimeCreation\Scripts\CreateStereoRenderer.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Examples\Common\Scripts\FollowHmd.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Scripts\DeviceParamFactory\IDeviceParamFactory.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Scripts\DeviceParamFactory\SteamVRParamFactory.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Scripts\DeviceType.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Scripts\StereoRenderManager.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Scripts\StereoRenderer.cs" />
     <Compile Include="Assets\Scripts\Bezier.cs" />
     <Compile Include="Assets\Scripts\ClawHand.cs" />
-    <Compile Include="Assets\Scripts\Enemy\AlertState.cs" />
-    <Compile Include="Assets\Scripts\Enemy\ChaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\ApplyDamage.cs" />
+    <Compile Include="Assets\Scripts\Enemy\BOB\BobAlertState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\BOB\BobBaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\BOB\BobChaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\BOB\BobMeleeAttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\BOB\BobPatrolState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\BOB\BobRangeAttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\BOB\BobVictoryState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\BOB\StatePatternBob.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Drone\DroneAlertState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Drone\DroneChaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Drone\DroneMeleeAttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Drone\DronePatrolState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Drone\DroneRangeAttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Drone\DroneVictoryState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Drone\StatePatternDrone.cs" />
     <Compile Include="Assets\Scripts\Enemy\IEnemyState.cs" />
-    <Compile Include="Assets\Scripts\Enemy\MeleeAttackState.cs" />
-    <Compile Include="Assets\Scripts\Enemy\PatrolState.cs" />
-    <Compile Include="Assets\Scripts\Enemy\RangeAttackState.cs" />
-    <Compile Include="Assets\Scripts\Enemy\ScanState.cs" />
-    <Compile Include="Assets\Scripts\Enemy\StatePatternEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Omni\OmniAlertState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Omni\OmniBaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Omni\OmniChaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Omni\OmniMeleeAttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Omni\OmniPatrolState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Omni\OmniRangeAttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Omni\OmniVictoryState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Omni\StatePatternOmni.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterAlertState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterBaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterChaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterMeleeAttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterPatrolState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterRangeAttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterVictoryState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Skitter\StatePatternSkitter.cs" />
+    <Compile Include="Assets\Scripts\FollowHMD.cs" />
+    <Compile Include="Assets\Scripts\MirrorCam.cs" />
+    <Compile Include="Assets\Scripts\PlayerDamage.cs" />
     <Compile Include="Assets\Scripts\WaveLimb.cs" />
+    <Compile Include="Assets\Scripts\WeaponPropery.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
@@ -192,6 +230,10 @@
     <Compile Include="Assets\Tania\scripts\buildingTimedDestruct.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\HTC.UnityPlugin\StereoRendering\Shader\ScreenSpaceShadows-ForCustomPerspectiveMat.shader" />
+    <None Include="Assets\HTC.UnityPlugin\StereoRendering\Shader\StereoRenderShader.shader" />
+    <None Include="Assets\HTC.UnityPlugin\StereoRendering\Shader\StereoRenderShader_5_3.shader" />
+    <None Include="Assets\HTC.UnityPlugin\StereoRendering\readme.txt" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
