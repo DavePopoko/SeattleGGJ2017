@@ -43,6 +43,9 @@ public class BobBaseState : IEnemyState
 
     public virtual void ToPatrolState()
     {
+        Debug.Log("Enter Patrol");
+        enemy.enteredstate = true;
+        enemy.currentState = enemy.patrolState;
     }
 
     public virtual void ToRangeAttackState()
