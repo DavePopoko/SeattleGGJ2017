@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.5.0f3</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -78,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bezier.cs" />
+    <Compile Include="Assets\Scripts\ClawHand.cs" />
     <Compile Include="Assets\Scripts\Enemy\AlertState.cs" />
     <Compile Include="Assets\Scripts\Enemy\ChaseState.cs" />
     <Compile Include="Assets\Scripts\Enemy\IEnemyState.cs" />
@@ -86,7 +85,6 @@
     <Compile Include="Assets\Scripts\Enemy\RangeAttackState.cs" />
     <Compile Include="Assets\Scripts\Enemy\ScanState.cs" />
     <Compile Include="Assets\Scripts\Enemy\StatePatternEnemy.cs" />
-    <Compile Include="Assets\Scripts\ClawHand.cs" />
     <Compile Include="Assets\Scripts\WaveLimb.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
@@ -190,6 +188,8 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+    <Compile Include="Assets\Tania\scripts\buildingBreakManager.cs" />
+    <Compile Include="Assets\Tania\scripts\buildingTimedDestruct.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
