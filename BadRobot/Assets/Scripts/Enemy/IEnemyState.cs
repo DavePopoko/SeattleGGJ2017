@@ -4,17 +4,19 @@ using System.Collections;
 public interface IEnemyState
 {
 
-    void UpdateState();
-
     void OnTriggerEnter(Collider other);
-
-    void ToPatrolState();
 
     void ToAlertState();
 
     void ToChaseState();
 
+    void ToMeleeAttackState();
+
+    void ToPatrolState();
+
     void ToRangeAttackState();
 
-    void ToMeleeAttackState();
+    void ToVictoryState();
+
+    void UpdateState();
 }
