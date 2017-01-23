@@ -5,7 +5,7 @@ public class SkitterBaseState : IEnemyState
 {
     internal StatePatternSkitter enemy;
     internal float searchTimer;
-
+    
     public SkitterBaseState()
     {
     }
@@ -21,18 +21,31 @@ public class SkitterBaseState : IEnemyState
 
     public virtual void ToAlertState()
     {
+        Debug.Log("Enter ALERT");
+        enemy.enteredstate = true;
+        enemy.currentState = enemy.alertState;
     }
+
 
     public virtual void ToChaseState()
     {
+        Debug.Log("Enter Chase");
+        enemy.enteredstate = true;
+        enemy.currentState = enemy.chaseState;
     }
 
     public virtual void ToMeleeAttackState()
     {
+        Debug.Log("Enter Melee");
+        enemy.enteredstate = true;
+        enemy.currentState = enemy.meleeState;
     }
 
     public virtual void ToPatrolState()
     {
+        Debug.Log("Enter Patrol");
+        enemy.enteredstate = true;
+        enemy.currentState = enemy.patrolState;
     }
 
     public virtual void ToRangeAttackState()
@@ -56,7 +69,7 @@ public class SkitterBaseState : IEnemyState
         RaycastHit hit;
 
         //Chase logis is differnt
-        if (enemy.currentState.GetType() == typeof(SkitterChaseState))
+        if ((enemy.currentState.GetType() == typeof(SkitterChaseState)) ||(enemy.currentState.GetType() == typeof(SkitterMeleeAttackState)))
         {
             Vector3 enemyToTarget = (enemy.chaseTarget.position + enemy.offset) - enemy.Scanner.transform.position;
             Debug.DrawRay(enemy.Scanner.transform.position, enemyToTarget, Color.green);
@@ -66,6 +79,7 @@ public class SkitterBaseState : IEnemyState
             }
             else
             {
+                enemy.enteredstate = true;
                 ToAlertState();
             }
         }
@@ -84,7 +98,11 @@ public class SkitterBaseState : IEnemyState
                     break;
                 }
             }
-            if (foundTarget) ToChaseState();
+            if (foundTarget)
+            {
+                enemy.enteredstate = true;
+                ToChaseState();
+            }
 
             //if (Physics.Raycast(enemy.Scanner.transform.position, enemy.Scanner.transform.forward, out hit, enemy.sightRange) && hit.collider.CompareTag("Player"))
             //{
@@ -99,7 +117,7 @@ public class SkitterBaseState : IEnemyState
     internal void Search()
     {
         //Debug.Log("B>Scanning for player:" + searchTimer +":"+ enemy.searchingDuration);
-        enemy.meshRendererFlag.material.color = Color.yellow;
+        //enemy.meshRendererFlag.material.color = Color.yellow;
         enemy.navMeshAgent.Stop();
 
         //Spin till you find the player
@@ -108,6 +126,7 @@ public class SkitterBaseState : IEnemyState
 
         if (searchTimer >= enemy.searchingDuration)
         {
+            enemy.enteredstate = true;
             ToPatrolState();
         }
     }

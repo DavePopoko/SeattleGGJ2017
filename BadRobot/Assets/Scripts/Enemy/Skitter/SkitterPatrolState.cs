@@ -3,9 +3,8 @@
 public class SkitterPatrolState : SkitterBaseState, IEnemyState
 
 {
-    //private readonly StatePatternSkitter enemy;
-    private int nextWayPoint;
-
+    private int nextWayPoint=0;
+    
     public SkitterPatrolState(StatePatternSkitter statePatternEnemy)
     {
         enemy = statePatternEnemy;
@@ -15,77 +14,29 @@ public class SkitterPatrolState : SkitterBaseState, IEnemyState
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            enemy.animator.SetTrigger("IsAttacking");
             Debug.Log("Enter ALERT");
             ToAlertState();
         }
     }
-
-    public override void ToAlertState()
+    
+    public override void UpdateState()
     {
-        Debug.Log("Enter ALERT");
-        enemy.currentState = enemy.alertState;
-    }
-
-    public override void ToChaseState()
-    {
-        Debug.Log("Enter CHASE");
-        enemy.currentState = enemy.chaseState;
-    }
-
-    //public void ToMeleeAttackState()
-    //{
-    //}
-
-    //public void ToPatrolState()
-    //{
-    //    Debug.Log("Can't transition to same state");
-    //}
-
-    //public void ToRangeAttackState()
-    //{
-    //}
-
-    //public void ToScanState()
-    //{
-    //}
-
-    //public void ToVictoryState()
-    //{
-    //}
-
-    public void UpdateState()
-    {
-        // Testing pew pew
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (enemy.enteredstate)
         {
-            Debug.Log("Fire!");
-
-            //GameObject testPrefab = (GameObject)AssetDatabase.LoadAssetAtPath("Projectile", typeof(GameObject));
-
-            var cubey = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            cubey.AddComponent< Rigidbody > ();
-            
-            GameObject bullet = GameObject.Instantiate(cubey, enemy.transform.position, Quaternion.identity) as GameObject;
-            bullet.GetComponent<Rigidbody>().AddForce(enemy.transform.forward * 50);
+            Debug.Log("Entered Patrol State");
+            enemy.animator.SetBool("isRoboMoving", true);
+            enemy.animator.SetTrigger("isTaunting");
+            enemy.enteredstate = false;
         }
-
+        
         Look();
         Patrol();
     }
-
-    //private void Look()
-    //{
-    //    RaycastHit hit;
-    //    if (Physics.Raycast(enemy.Scanner.transform.position, enemy.Scanner.transform.forward, out hit, enemy.sightRange) && hit.collider.CompareTag("Player"))
-    //    {
-    //        enemy.chaseTarget = hit.transform;
-    //        ToChaseState();
-    //    }
-    //}
-
+    
     private void Patrol()
     {
-        enemy.meshRendererFlag.material.color = Color.green;
+        //enemy.meshRendererFlag.material.color = Color.green;
         enemy.navMeshAgent.destination = enemy.wayPoints[nextWayPoint].position;
         enemy.navMeshAgent.Resume();
 

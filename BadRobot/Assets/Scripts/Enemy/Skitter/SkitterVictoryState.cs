@@ -2,9 +2,7 @@
 using System.Collections;
 
 public class SkitterVictoryState : SkitterBaseState, IEnemyState
-
 {
-    //private readonly StatePatternSkitter enemy;
     private int nextWayPoint;
 
     public SkitterVictoryState(StatePatternSkitter statePatternEnemy)
@@ -16,36 +14,7 @@ public class SkitterVictoryState : SkitterBaseState, IEnemyState
     {
     }
 
-    public void ToAlertState()
-    {
-    }
-
-    public void ToChaseState()
-    {
-    }
-
-    public void ToMeleeAttackState()
-    {
-    }
-
-    public void ToPatrolState()
-    {
-    }
-
-    public void ToRangeAttackState()
-    {
-    }
-
-    public void ToScanState()
-    {
-    }
-
-    public void ToVictoryState()
-    {
-        Debug.Log("Can't transition to same state");
-    }
-
-    public void UpdateState()
+    public override void UpdateState()
     {
         Dance();
     }

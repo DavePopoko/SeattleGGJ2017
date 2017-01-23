@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class BobDefeatState : BobBaseState, IEnemyState
+public class DroneDefeatState : DroneBaseState, IEnemyState
 {
-    public BobDefeatState(StatePatternBob statePatternEnemy)
+    public DroneDefeatState(StatePatternDrone statePatternEnemy)
     {
         enemy = statePatternEnemy;
     }

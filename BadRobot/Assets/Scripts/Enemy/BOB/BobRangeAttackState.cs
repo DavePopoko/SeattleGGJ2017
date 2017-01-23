@@ -7,7 +7,7 @@ public class BobRangeAttackState : BobBaseState, IEnemyState
         enemy = statePatternEnemy;
     }
     
-    public void UpdateState()
+    public override void UpdateState()
     {
         throw new System.NotImplementedException();
     }

@@ -8,6 +8,8 @@ public class StatePatternOmni : MonoBehaviour
     public float sightRange = 20f;
     public float movementspeed = 1f;
 
+    internal bool enteredstate = true;
+
     public Transform[] wayPoints;
     public Transform Scanner;
     public Vector3 offset = new Vector3(0, .5f, 0);
@@ -22,6 +24,7 @@ public class StatePatternOmni : MonoBehaviour
     [HideInInspector] public OmniMeleeAttackState meleeState;
     [HideInInspector] public OmniRangeAttackState rangedState;
     [HideInInspector] public OmniVictoryState victoryState;
+	[HideInInspector] public OmniDefeatState defeatState;
 
     [HideInInspector] public UnityEngine.AI.NavMeshAgent navMeshAgent;
 
@@ -34,6 +37,7 @@ public class StatePatternOmni : MonoBehaviour
         meleeState = new OmniMeleeAttackState(this);
         rangedState = new OmniRangeAttackState(this);
         victoryState = new OmniVictoryState(this);
+		defeatState = new OmniDefeatState(this);
 
         navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }

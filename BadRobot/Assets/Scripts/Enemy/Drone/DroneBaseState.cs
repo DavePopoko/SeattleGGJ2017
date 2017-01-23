@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
 
-public class OmniBaseState : IEnemyState
+public class DroneBaseState : IEnemyState
 
 {
-    internal StatePatternOmni enemy;
+    internal StatePatternDrone enemy;
     internal float searchTimer;
     
-    public OmniBaseState()
+    public DroneBaseState()
     {
     }
 
-    public OmniBaseState(StatePatternOmni statePatternEnemy)
+    public DroneBaseState(StatePatternDrone statePatternEnemy)
     {
         enemy = statePatternEnemy;
     }
@@ -69,7 +69,7 @@ public class OmniBaseState : IEnemyState
         RaycastHit hit;
 
         //Chase logis is differnt
-        if ((enemy.currentState.GetType() == typeof(OmniChaseState)) ||(enemy.currentState.GetType() == typeof(OmniMeleeAttackState)))
+        if ((enemy.currentState.GetType() == typeof(DroneChaseState)) ||(enemy.currentState.GetType() == typeof(DroneMeleeAttackState)))
         {
             Vector3 enemyToTarget = (enemy.chaseTarget.position + enemy.offset) - enemy.Scanner.transform.position;
             Debug.DrawRay(enemy.Scanner.transform.position, enemyToTarget, Color.green);
@@ -103,13 +103,24 @@ public class OmniBaseState : IEnemyState
                 enemy.enteredstate = true;
                 ToChaseState();
             }
+
+            //if (Physics.Raycast(enemy.Scanner.transform.position, enemy.Scanner.transform.forward, out hit, enemy.sightRange) && hit.collider.CompareTag("Player"))
+            //{
+            //    enemy.chaseTarget = hit.transform;
+            //    {
+            //        ToChaseState();
+            //    }
+            //}
         }
     }
 
     internal void Search()
     {
+        //Debug.Log("B>Scanning for player:" + searchTimer +":"+ enemy.searchingDuration);
+        //enemy.meshRendererFlag.material.color = Color.yellow;
         enemy.navMeshAgent.Stop();
 
+        //Spin till you find the player
         enemy.transform.Rotate(0, enemy.searchingTurnSpeed * Time.deltaTime, 0);
         searchTimer += Time.deltaTime;
 
