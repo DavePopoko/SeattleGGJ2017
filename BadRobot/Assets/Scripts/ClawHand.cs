@@ -42,6 +42,9 @@ public class ClawHand : MonoBehaviour
 
 			holding.GetComponent<StatePatternBob>().enabled = false;
 			holding.GetComponent<NavMeshAgent>().enabled = false;
+			SkinnedMeshRenderer smr = holding.GetComponent<SkinnedMeshRenderer>();
+			if(smr != null)
+				smr.SetBlendShapeWeight(0, 100);
 		}
 
 		if (holding != null && !isTriggerDown)
