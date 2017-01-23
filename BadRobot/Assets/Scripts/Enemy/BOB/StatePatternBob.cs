@@ -24,6 +24,7 @@ public class StatePatternBob : MonoBehaviour
     [HideInInspector] public BobMeleeAttackState meleeState;
     [HideInInspector] public BobRangeAttackState rangedState;
     [HideInInspector] public BobVictoryState victoryState;
+	[HideInInspector] public BobDefeatState defeatState;
 
     [HideInInspector] public UnityEngine.AI.NavMeshAgent navMeshAgent;
 
@@ -36,6 +37,7 @@ public class StatePatternBob : MonoBehaviour
         meleeState = new BobMeleeAttackState(this);
         rangedState = new BobRangeAttackState(this);
         victoryState = new BobVictoryState(this);
+		defeatState = new BobDefeatState(this);
 
         navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }

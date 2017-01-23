@@ -9,7 +9,7 @@ public class buildingBreakManager : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.CompareTag("Player"))
+            if (other.gameObject.CompareTag("Finish"))
             {
 
                 Instantiate(remains, spawnPoints.position, spawnPoints.rotation);
