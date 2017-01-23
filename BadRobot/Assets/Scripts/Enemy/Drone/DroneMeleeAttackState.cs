@@ -1,59 +1,66 @@
 ﻿using UnityEngine;
 
-public class DroneMeleeAttackState : IEnemyState
+public class DroneMeleeAttackState : DroneBaseState, IEnemyState
 {
-    private readonly StatePatternDrone enemy;
-
     public DroneMeleeAttackState(StatePatternDrone statePatternEnemy)
     {
         enemy = statePatternEnemy;
     }
 
-    public void OnTriggerEnter(Collider other)
+    public override void UpdateState()
     {
-        throw new System.NotImplementedException();
+        if (enemy.enteredstate)
+        {
+            Debug.Log("Entered Melee State");
+            enemy.animator.SetBool("isRoboMoving", false);
+            enemy.enteredstate = false;
+        }
+
+        Look();
+        Attack();
     }
 
-    public void ToAlertState()
+    private void Attack()
     {
-        throw new System.NotImplementedException();
-    }
+        float dist = Vector3.Distance(enemy.transform.position, enemy.chaseTarget.position);
 
-    public void ToChaseState()
-    {
-        throw new System.NotImplementedException();
-    }
+        if (dist >= 4.0f)
+        {
+            ToChaseState();
+        }
+        enemy.navMeshAgent.Stop();
 
-    public void ToMeleeAttackState()
-    {
-        Debug.Log("Can't transition to same state");
-    }
+        // TODO: turn to face
+        float angle = 15f;
 
-    public void ToPatrolState()
-    {
-        throw new System.NotImplementedException();
-    }
+        var targetPosition = enemy.chaseTarget.position;
+        targetPosition.y = enemy.transform.position.y;
 
-    public void ToRangeAttackState()
-    {
-    }
+        //if (!(Mathf.Abs(Vector3.Angle(enemy.chaseTarget.transform.forward, enemy.transform.position - enemy.chaseTarget.transform.position)) < angle))
+        //if (!(Mathf.Abs(Vector3.Angle(targetPosition, enemy.transform.position - targetPosition)) < angle))
+        //{
+          //  var pp = Mathf.Abs(Vector3.Angle(enemy.transform.position, enemy.transform.position - targetPosition));
+            //rotate
+            // transform.LookAt(transform.position + new Vector3(0,0,1), target);
+            //var targetRotation = Quaternion.LookRotation(enemy.chaseTarget.transform.position - enemy.transform.position);
+            //var str = Mathf.Min(0.9f * Time.deltaTime, 1);
+            //enemy.transform.rotation = Quaternion.Lerp(enemy.transform.rotation, targetRotation, str);
 
-    public void ToVictoryState()
-    {
-    }
+            //enemy.animator.SetBool("isRoboMoving", true);
+            //instant look at - bad 
 
-    public void UpdateState()
-    {
-        throw new System.NotImplementedException();
-    }
-
-    // Use this for initialization
-    private void Start()
-    {
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
+            //var targetRotation = Quaternion.LookRotation(targetPosition - enemy.transform.position);
+            //var str = Mathf.Min(0.9f * Time.deltaTime, 1);
+            //enemy.transform.rotation = Quaternion.Lerp(enemy.transform.rotation, targetRotation, str);
+            
+            //enemy.transform.LookAt(targetPosition);
+        //}
+        // if not facing 
+        // TODO
+        //else
+        //{
+            enemy.animator.SetTrigger("IsAttacking");
+            enemy.animator.SetBool("isRoboMoving", false);
+        //}
     }
 }

@@ -12,7 +12,7 @@ public class BobAlertState : BobBaseState, IEnemyState
         Debug.Log("Can't transition to same state");
     }
 
-    public void UpdateState()
+    public override void UpdateState()
     {
         if (enemy.enteredstate)
         {

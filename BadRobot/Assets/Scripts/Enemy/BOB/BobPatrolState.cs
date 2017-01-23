@@ -20,7 +20,7 @@ public class BobPatrolState : BobBaseState, IEnemyState
         }
     }
     
-    public void UpdateState()
+    public override void UpdateState()
     {
         if (enemy.enteredstate)
         {

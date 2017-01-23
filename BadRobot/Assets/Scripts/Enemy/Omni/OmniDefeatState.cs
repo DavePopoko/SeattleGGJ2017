@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class BobDefeatState : BobBaseState, IEnemyState
+public class OmniDefeatState : OmniBaseState, IEnemyState
 {
-    public BobDefeatState(StatePatternBob statePatternEnemy)
+    public OmniDefeatState(StatePatternOmni statePatternEnemy)
     {
         enemy = statePatternEnemy;
     }

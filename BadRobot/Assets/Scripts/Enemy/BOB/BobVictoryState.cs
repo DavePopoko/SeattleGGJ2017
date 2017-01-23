@@ -14,7 +14,7 @@ public class BobVictoryState : BobBaseState, IEnemyState
     {
     }
 
-    public void UpdateState()
+    public override void UpdateState()
     {
         Dance();
     }

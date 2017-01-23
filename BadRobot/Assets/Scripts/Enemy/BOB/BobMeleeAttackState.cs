@@ -7,7 +7,7 @@ public class BobMeleeAttackState : BobBaseState, IEnemyState
         enemy = statePatternEnemy;
     }
 
-    public void UpdateState()
+    public override void UpdateState()
     {
         if (enemy.enteredstate)
         {

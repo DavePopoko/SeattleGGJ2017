@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
+using System.Collections;
 
-public class DroneVictoryState : IEnemyState
-
+public class DroneVictoryState : DroneBaseState, IEnemyState
 {
-    private readonly StatePatternDrone enemy;
     private int nextWayPoint;
 
     public DroneVictoryState(StatePatternDrone statePatternEnemy)
@@ -13,71 +12,14 @@ public class DroneVictoryState : IEnemyState
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("Enter ALERT");
-            ToAlertState();
-        }
     }
 
-    public void ToAlertState()
+    public override void UpdateState()
     {
-        Debug.Log("Enter ALERT");
-        enemy.currentState = enemy.alertState;
+        Dance();
     }
 
-    public void ToChaseState()
+    private void Dance()
     {
-        Debug.Log("Enter CHASE");
-        enemy.currentState = enemy.chaseState;
-    }
-
-    public void ToMeleeAttackState()
-    {
-    }
-
-    public void ToPatrolState()
-    {
-        Debug.Log("Can't transition to same state");
-    }
-
-    public void ToRangeAttackState()
-    {
-    }
-
-    public void ToScanState()
-    {
-    }
-
-    public void ToVictoryState()
-    {
-    }
-
-    public void UpdateState()
-    {
-        Look();
-        Patrol();
-    }
-
-    private void Look()
-    {
-        RaycastHit hit;
-        if (Physics.Raycast(enemy.Scanner.transform.position, enemy.Scanner.transform.forward, out hit, enemy.sightRange) && hit.collider.CompareTag("Player"))
-        {
-            enemy.chaseTarget = hit.transform;
-            ToChaseState();
-        }
-    }
-
-    private void Patrol()
-    {
-        enemy.meshRendererFlag.material.color = Color.green;
-        enemy.navMeshAgent.destination = enemy.wayPoints[nextWayPoint].position;
-        enemy.navMeshAgent.Resume();
-
-        if (enemy.navMeshAgent.remainingDistance <= enemy.navMeshAgent.stoppingDistance && !enemy.navMeshAgent.pathPending)
-        {
-            nextWayPoint = (nextWayPoint + 1) % enemy.wayPoints.Length;
-        }
     }
 }

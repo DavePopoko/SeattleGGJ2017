@@ -8,6 +8,8 @@ public class StatePatternSkitter : MonoBehaviour
     public float sightRange = 20f;
     public float movementspeed = 1f;
 
+    internal bool enteredstate = true;
+
     public Transform[] wayPoints;
     public Transform Scanner;
     public Vector3 offset = new Vector3(0, .5f, 0);
@@ -22,6 +24,7 @@ public class StatePatternSkitter : MonoBehaviour
     [HideInInspector] public SkitterMeleeAttackState meleeState;
     [HideInInspector] public SkitterRangeAttackState rangedState;
     [HideInInspector] public SkitterVictoryState victoryState;
+	[HideInInspector] public SkitterDefeatState defeatState;
 
     [HideInInspector] public UnityEngine.AI.NavMeshAgent navMeshAgent;
 
@@ -34,6 +37,7 @@ public class StatePatternSkitter : MonoBehaviour
         meleeState = new SkitterMeleeAttackState(this);
         rangedState = new SkitterRangeAttackState(this);
         victoryState = new SkitterVictoryState(this);
+		defeatState = new SkitterDefeatState(this);
 
         navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
