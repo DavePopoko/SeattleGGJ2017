@@ -115,7 +115,9 @@
     <Compile Include="Assets\Scripts\Enemy\BOB\StatePatternBob.cs" />
     <Compile Include="Assets\Scripts\Enemy\DamageAggregator.cs" />
     <Compile Include="Assets\Scripts\Enemy\Drone\DroneAlertState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Drone\DroneBaseState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Drone\DroneChaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Drone\DroneDefeatState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Drone\DroneMeleeAttackState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Drone\DronePatrolState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Drone\DroneRangeAttackState.cs" />
@@ -125,6 +127,7 @@
     <Compile Include="Assets\Scripts\Enemy\Omni\OmniAlertState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Omni\OmniBaseState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Omni\OmniChaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Omni\OmniDefeatState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Omni\OmniMeleeAttackState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Omni\OmniPatrolState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Omni\OmniRangeAttackState.cs" />
@@ -133,6 +136,7 @@
     <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterAlertState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterBaseState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterChaseState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterDefeatState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterMeleeAttackState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterPatrolState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skitter\SkitterRangeAttackState.cs" />
