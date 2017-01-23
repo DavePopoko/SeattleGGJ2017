@@ -54,8 +54,9 @@ public class StatePatternBob : MonoBehaviour
         currentState.UpdateState();
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        currentState.OnTriggerEnter(other);
-    }
+	private void OnTriggerEnter(Collider other)
+	{
+		if (currentState != null)
+			currentState.OnTriggerEnter(other);
+	}
 }
